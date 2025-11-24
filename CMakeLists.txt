@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.5)
 project(polyseed)
 
 set(polyseed_sources
-src/dependency.c
+src/dependency.c 
 src/features.c
 src/gf.c
 src/lang.c
