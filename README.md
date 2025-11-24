@@ -1,5 +1,5 @@
 # Polyseed Monero
-
+ 
 ## Features
 
 * 16 mnemonic words (36% shorter than the original 25-word seed)
