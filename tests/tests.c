@@ -3,7 +3,7 @@
 
 #ifdef NDEBUG
 #undef NDEBUG 
-#endif
+#endif 
 
 #include <polyseed.h>
 
