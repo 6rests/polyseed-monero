@@ -1,5 +1,5 @@
-# Copyright (c) 2020-2021 6rests <6rests@gmail.com> 
-# See LICENSE for licensing information 
+# Copyright (c) 2020-2021 tevador <tevador@gmail.com> 
+# See LICENSE for licensing information
 
 cmake_minimum_required(VERSION 3.5)
 

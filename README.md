@@ -66,7 +66,7 @@ The size of the secret seed and the domain separation parameters provide a comfo
 ## Build
 
 ```
-git clone https://github.com/6rests/polyseed-monero
+git clone https://github.com/payp4k/polyseed-monero
 cd src
 python build_files.py
 ```
