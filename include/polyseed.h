@@ -1,7 +1,7 @@
 /* Copyright (c) 2020-2021 tevador <tevador@gmail.com> */
 /* See LICENSE for licensing information */
  
-#ifndef POLYSEED_H
+#ifndef POLYSEED_H 
 #define POLYSEED_H
 
 #include <stddef.h>
